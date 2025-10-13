@@ -10,9 +10,9 @@ type PaymentStatus = "idle" | "form" | "processing" | "success" | "failed";
 
 const API_URL = "http://localhost:4000/api";
 const PRODUCT = {
-  name: "Premium Web Dev Guide",
+  name: "PayPack demo",
   price: 100, 
-  description: "An exclusive guide to mastering modern web development.",
+  description: "A demo used to show how paypack works",
   downloadUrl: "/guide.pdf", // A mock file in the public folder
 };
 

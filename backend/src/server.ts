@@ -18,7 +18,7 @@ const io = new SocketIOServer(server, {
 // Middleware to get raw body for webhook verification
 app.use(
   express.json({
-    verify: (req: any, res, buf) => {
+    verify: (req: any, _res, buf) => {
       req.rawBody = buf;
     },
   })
